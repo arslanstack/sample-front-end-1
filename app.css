@@ -1,0 +1,124 @@
+/* body{
+    font-family: 'Playfair Display', serif;
+} */
+
+#header{
+    background: url(imgs/header.jpeg);
+}
+#header h1{
+    color: #2060E8;
+}
+#header a{
+    border-radius: 0px;
+}
+#carder .card{
+    color: white;
+    background-color: #2060E8;
+    /* width: 350px;
+    height: 280px; */
+}
+#carder a{
+    border-radius: 0;
+    background-color: white;
+    color: #2060E8;
+}
+#carder hr{
+    width: 50%;
+    height: 5px;
+    border-radius: 5px;
+    margin-left: 0;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background-color: white;
+    color: white;
+}
+/* .card-body{
+    /* padding-left: 50px; */
+ */
+.card-body h2{
+    line-height: 55px;
+}
+#differentButton{
+    padding: 15px 35px;
+    font-size: 25px;
+}
+#differentCard .card-body{
+    padding-left: 0;
+    padding-right: 0;
+    justify-content: center;
+    text-align: center;
+}
+#aboutUs{
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('imgs/aboutus.jpg');
+    background-position:center bottom;
+    background-size: cover;
+    height:450px;
+    color: white;
+}
+#aboutUs a{
+    border-radius: 0;
+}
+.courses{
+    text-align: center;
+}
+.courses h2{
+    color: #2060E8;
+}
+#carderTwo .card{
+    background-color: white;
+    /* width: 100%; */
+    /* height: auto; */
+    /* box-shadow: 4px solid black; */
+}
+#carderTwo .col-md-4.my-2{
+    box-shadow: 25px solid black;
+}
+#carderTwo .card-img-top{
+    /* width: 100%; */
+    /* height: auto; */
+    align-self: center;
+}
+#carderTwo .card-title{
+    text-align: center;
+}
+#carderTwo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#coursesFluid{
+    background-color: #CCC;
+}
+#blogsFluid{
+    background-color: #BFD2FC;
+}
+#formBack{
+    display:table;
+    width:100%;
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) ), url('imgs/9.jpg');
+    background-position:center bottom;
+    background-size: cover;
+    height:650px;
+    color: white;
+}
+#formBack h1{
+    color: white;
+    text-align: center;
+}
+#formBox{
+    background-color: white;
+    opacity: 0.9;
+    padding: 55px;
+    padding-bottom: 25px;
+    border-radius: 20px;
+}
+
+/* #footerSection{
+    position: relative;
+}
+#footerPart{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%)
+} */
